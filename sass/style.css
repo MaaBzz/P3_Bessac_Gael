@@ -1,4 +1,55 @@
 body {
-  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-left: 0px;
+}
+
+#page {
+  width: 425px;
+}
+
+#logo {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.ohmyfood {
+  width: 40%;
+}
+
+#localisation {
+  margin-top: 10px;
+  background-color: #eaeaea;
+  height: 50px;
+  -webkit-box-shadow: 0px 4px 5px #cfcfcf inset;
+          box-shadow: 0px 4px 5px #cfcfcf inset;
+  text-align: center;
+}
+
+#localisation input {
+  border: 0px;
+  background-color: #eaeaea;
+}
+
+#localisation #search {
+  padding-top: 15px;
+}
+
+#localisation label {
+  padding-left: 60px;
+  font-size: 17px;
+}
+
+#localisation #text {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+#Description {
+  background-color: #f6f6f6;
+  margin-top: -20px;
+  height: 300px;
 }
 /*# sourceMappingURL=style.css.map */
