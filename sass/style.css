@@ -136,7 +136,7 @@ h1 {
   background-color: #f6f6f6;
   margin-top: 60px;
   padding-top: 1px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 
 #restaurant h2 {
@@ -202,5 +202,10 @@ h1 {
 .coeur_rempli {
   font-size: 22px;
   padding-left: 330px;
+}
+
+footer {
+  background-color: #353535;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
