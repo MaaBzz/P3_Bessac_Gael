@@ -6,6 +6,7 @@ body {
     display: flex;
     width: 100%;
     margin-left: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 #page {
     width: 425px;
@@ -173,4 +174,21 @@ h1 {
 footer {
     background-color: #353535;
     color: white;
+    height: 240px;
+    #texte_footer {
+        padding-left: 20px;
+        line-height: 9px;
+        font-size: 17px;
+    }
+    i {
+        padding-right: 7px;
+    }
+}
+.i1 {
+    padding-right: 8px;
+}
+.logo_blanc {
+    width: 30%;
+    padding-left: 20px;
+    padding-top: 20px;
 }
