@@ -283,11 +283,46 @@ footer i {
   padding-left: 35px;
 }
 
-#entree p {
+#catégorie p {
   margin-top: -5px;
   font-size: 20px;
   border-bottom: 3px solid #99E2D0;
   width: 50px;
   height: 30px;
+}
+
+#nourriture p {
+  background-color: white;
+  width: 95%;
+  height: 70px;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.ligne1 {
+  font-weight: bold;
+  font-size: 21px;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+.ligne2 {
+  font-size: 16px;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+
+.prix {
+  font-weight: bold;
+  font-size: 17px;
+  text-align: end;
+  margin-top: -22px;
+  padding-right: 25px;
 }
 /*# sourceMappingURL=style.css.map */

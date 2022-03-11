@@ -235,10 +235,38 @@ footer {
         }
     }
 }
-#entree p {
+#catégorie p {
     margin-top: -5px;
     font-size: 20px;
     border-bottom: 3px solid $vert;
     width: 50px;
     height: 30px;
+}
+#nourriture {
+    p {
+        background-color: white;
+        width: 95%;
+        height: 70px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+.ligne1 {
+    font-weight: bold;
+    font-size: 21px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+.ligne2 {
+    font-size: 16px;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+.prix {
+    font-weight: bold;
+    font-size: 17px;
+    text-align: end;
+    margin-top: -22px;
+    padding-right: 25px;
 }
