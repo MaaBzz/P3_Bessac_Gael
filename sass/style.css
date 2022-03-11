@@ -230,4 +230,28 @@ footer i {
   padding-left: 20px;
   padding-top: 20px;
 }
+
+#logo_petit {
+  margin-top: -10px;
+  padding-top: 5px;
+  padding-bottom: 2px;
+}
+
+#logo_petit i {
+  font-size: 30px;
+  padding-left: 30px;
+  color: #353535;
+}
+
+#logo_petit img {
+  width: 40%;
+  padding-left: 70px;
+}
+
+#restaurant_img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 220px;
+}
 /*# sourceMappingURL=style.css.map */
