@@ -86,7 +86,7 @@ body {
 }
 
 h1 {
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 #etape {
@@ -142,6 +142,7 @@ h1 {
 
 #restaurant h2 {
   padding-left: 20px;
+  margin-bottom: -40px;
 }
 
 #restaurant #menu p {
@@ -208,7 +209,7 @@ h1 {
 footer {
   background-color: #353535;
   color: white;
-  height: 240px;
+  height: 200px;
 }
 
 footer #texte_footer {
@@ -284,7 +285,8 @@ footer i {
 }
 
 #catégorie p {
-  margin-top: -5px;
+  margin-top: -15px;
+  padding-top: 30px;
   font-size: 20px;
   border-bottom: 3px solid #99E2D0;
   width: 50px;
@@ -293,6 +295,8 @@ footer i {
 
 #nourriture p {
   background-color: white;
+  -webkit-box-shadow: 0px 0px 15px gray;
+          box-shadow: 0px 0px 15px gray;
   width: 95%;
   height: 70px;
   border-radius: 20px;
@@ -316,6 +320,7 @@ footer i {
   font-size: 16px;
   padding-left: 15px;
   padding-top: 5px;
+  overflow: hidden;
 }
 
 .prix {
@@ -324,5 +329,31 @@ footer i {
   text-align: end;
   margin-top: -22px;
   padding-right: 25px;
+}
+
+#bouton_menu {
+  background-color: #f6f6f6;
+  margin-top: -20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#bouton_menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 19px;
+}
+
+#btn_commander {
+  text-align: center;
+  width: 240px;
+  height: 35px;
+  padding-top: 15px;
+  margin-left: 90px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
+  background: linear-gradient(#FF79DA, #9356DC);
+  border-radius: 30px 30px 30px 30px;
+  -webkit-box-shadow: 1px 1px 10px gray;
+          box-shadow: 1px 1px 10px gray;
 }
 /*# sourceMappingURL=style.css.map */
